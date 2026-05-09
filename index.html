@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NovaBank — Modern Banking & Finance for Everyone</title>
+  <meta name="description" content="NovaBank offers premium personal & business banking, low-rate loans, world-class credit cards, and secure digital banking. Open your account in minutes." />
+  <meta name="keywords" content="banking, loans, credit cards, savings, fintech, NovaBank" />
+  <meta name="author" content="NovaBank" />
+  <meta property="og:title" content="NovaBank — Modern Banking for Everyone" />
+  <meta property="og:description" content="Premium banking, smart loans, and rewarding credit cards." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ====== Top bar ====== -->
+  <div class="topbar">
+    <div class="container">
+      <div class="info">
+        <span><i class="fa-solid fa-phone"></i> +1 (800) 555-0199</span>
+        <span><i class="fa-solid fa-envelope"></i> support@novabank.com</span>
+      </div>
+      <div class="actions">
+        <a href="#"><i class="fa-solid fa-right-to-bracket"></i> Net Banking Login</a>
+        <div style="position:relative;">
+          <button class="lang"><i class="fa-solid fa-globe"></i> <span>EN</span> <i class="fa-solid fa-chevron-down" style="font-size:.65rem;"></i></button>
+          <div class="lang-menu">
+            <button data-code="EN">English</button>
+            <button data-code="ES">Español</button>
+            <button data-code="FR">Français</button>
+            <button data-code="DE">Deutsch</button>
+            <button data-code="HI">हिन्दी</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ====== Navbar ====== -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">N</span>
+        Nova<span class="gold">Bank</span>
+      </a>
+      <nav class="nav-menu">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="#loans">Loans</a>
+        <a href="#cards">Cards</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="nav-cta">
+        <a href="#" class="btn btn-ghost">Sign In</a>
+        <a href="#open" class="btn btn-primary">Open Account</a>
+      </div>
+      <button class="menu-toggle" aria-label="Menu"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </header>
+
+  <!-- ====== Hero ====== -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-text reveal">
+        <span class="eyebrow" style="color:var(--gold-400); letter-spacing:.18em; font-size:.78rem; font-weight:700; text-transform:uppercase;">
+          <i class="fa-solid fa-shield-halved"></i> Trusted by 2M+ customers worldwide
+        </span>
+        <h1 style="margin-top:14px;">Banking that puts <span class="accent">you first</span> — every step of the way.</h1>
+        <p class="lead">From everyday savings to home loans and premium credit cards, NovaBank gives you secure, intuitive, and rewarding financial tools designed for modern life.</p>
+        <div class="hero-ctas">
+          <a href="#open" class="btn btn-primary"><i class="fa-solid fa-user-plus"></i> Open Account</a>
+          <a href="#loans" class="btn btn-outline"><i class="fa-solid fa-hand-holding-dollar"></i> Apply for a Loan</a>
+          <a href="contact.html" class="btn btn-outline"><i class="fa-solid fa-headset"></i> Contact Us</a>
+        </div>
+        <div class="hero-trust">
+          <span><i class="fa-solid fa-lock"></i> 256-bit SSL Secured</span>
+          <span><i class="fa-solid fa-certificate"></i> FDIC Insured</span>
+          <span><i class="fa-solid fa-star"></i> 4.9/5 customer rating</span>
+        </div>
+      </div>
+      <div class="hero-visual reveal reveal-d2">
+        <div class="hero-img-wrap">
+          <img src="images/hero.jpg" alt="Premium NovaBank credit card on dark blue background" width="1280" height="896" />
+        </div>
+        <div class="glass-card gc-1">
+          <div class="row">
+            <div class="icon"><i class="fa-solid fa-arrow-trend-up"></i></div>
+            <div>
+              <div class="label">Savings APY</div>
+              <div class="value">4.85%</div>
+            </div>
+          </div>
+        </div>
+        <div class="glass-card gc-2">
+          <div class="row">
+            <div class="icon"><i class="fa-solid fa-shield-halved"></i></div>
+            <div>
+              <div class="label">Protected balance</div>
+              <div class="value">$250K</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Stats ====== -->
+  <div class="container">
+    <div class="stats reveal">
+      <div class="stat"><div class="num"><span data-counter="2400000">0</span><span class="plus">+</span></div><div class="label">Active Customers</div></div>
+      <div class="stat"><div class="num">$<span data-counter="86">0</span><span class="plus">B+</span></div><div class="label">Assets Managed</div></div>
+      <div class="stat"><div class="num"><span data-counter="540">0</span><span class="plus">+</span></div><div class="label">Branches Worldwide</div></div>
+      <div class="stat"><div class="num"><span data-counter="35">0</span></div><div class="label">Years of Trust</div></div>
+    </div>
+  </div>
+
+  <!-- ====== Partners ====== -->
+  <section class="partners">
+    <div class="container">
+      <h4>Trusted Banking & Technology Partners</h4>
+      <div class="partners-row">
+        <div class="p-logo"><i class="fa-brands fa-cc-visa"></i> VISA</div>
+        <div class="p-logo"><i class="fa-brands fa-cc-mastercard"></i> Mastercard</div>
+        <div class="p-logo"><i class="fa-brands fa-cc-amex"></i> Amex</div>
+        <div class="p-logo"><i class="fa-brands fa-cc-paypal"></i> PayPal</div>
+        <div class="p-logo"><i class="fa-brands fa-cc-stripe"></i> Stripe</div>
+        <div class="p-logo"><i class="fa-brands fa-google-pay"></i> Google Pay</div>
+        <div class="p-logo"><i class="fa-brands fa-apple-pay"></i> Apple Pay</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Services ====== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Our Services</span>
+        <h2>Banking made simple, smart and secure</h2>
+        <p>A complete suite of personal and business banking services — designed to grow with you.</p>
+      </div>
+      <div class="grid grid-3">
+        <div class="card reveal"><div class="ic"><i class="fa-solid fa-piggy-bank"></i></div><h3>Savings Account</h3><p>Earn industry-leading rates with zero monthly fees and 24/7 mobile access.</p><a href="services.html" class="more">Learn more <i class="fa-solid fa-arrow-right"></i></a></div>
+        <div class="card reveal reveal-d1"><div class="ic"><i class="fa-solid fa-mobile-screen"></i></div><h3>Mobile Banking</h3><p>Manage everything from one beautifully designed app — payments, transfers, investments.</p><a href="services.html" class="more">Learn more <i class="fa-solid fa-arrow-right"></i></a></div>
+        <div class="card reveal reveal-d2"><div class="ic"><i class="fa-solid fa-chart-line"></i></div><h3>Investments</h3><p>Smart portfolios, wealth advisors and curated funds tailored to your goals.</p><a href="services.html" class="more">Learn more <i class="fa-solid fa-arrow-right"></i></a></div>
+        <div class="card reveal"><div class="ic"><i class="fa-solid fa-shield-heart"></i></div><h3>Insurance</h3><p>Protect what matters with life, health, and asset insurance under one roof.</p><a href="services.html" class="more">Learn more <i class="fa-solid fa-arrow-right"></i></a></div>
+        <div class="card reveal reveal-d1"><div class="ic"><i class="fa-solid fa-building-columns"></i></div><h3>Business Banking</h3><p>Powerful tools for SMEs and corporates — payroll, payments, lending and more.</p><a href="services.html" class="more">Learn more <i class="fa-solid fa-arrow-right"></i></a></div>
+        <div class="card reveal reveal-d2"><div class="ic"><i class="fa-solid fa-globe"></i></div><h3>Global Transfers</h3><p>Send money to 180+ countries instantly at the best mid-market rates.</p><a href="services.html" class="more">Learn more <i class="fa-solid fa-arrow-right"></i></a></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Loans ====== -->
+  <section class="section" id="loans" style="background:var(--navy-50);">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Loan Offers</span>
+        <h2>Loans designed around your dreams</h2>
+        <p>Competitive rates, instant pre-approval and flexible repayment options.</p>
+      </div>
+      <div class="grid grid-4">
+        <div class="loan-card reveal">
+          <div class="loan-head"><div class="ic"><i class="fa-solid fa-user"></i></div><h3>Personal Loan</h3><div class="rate">From 8.5% p.a.</div></div>
+          <div class="loan-body">
+            <ul>
+              <li><i class="fa-solid fa-check"></i> Up to $50,000</li>
+              <li><i class="fa-solid fa-check"></i> Tenure up to 5 years</li>
+              <li><i class="fa-solid fa-check"></i> No collateral needed</li>
+              <li><i class="fa-solid fa-check"></i> Instant approval</li>
+            </ul>
+            <a href="#" class="btn btn-dark">Apply Now</a>
+          </div>
+        </div>
+        <div class="loan-card reveal reveal-d1">
+          <div class="loan-head"><div class="ic"><i class="fa-solid fa-house"></i></div><h3>Home Loan</h3><div class="rate">From 6.7% p.a.</div></div>
+          <div class="loan-body">
+            <ul>
+              <li><i class="fa-solid fa-check"></i> Up to $2M financing</li>
+              <li><i class="fa-solid fa-check"></i> Tenure up to 30 years</li>
+              <li><i class="fa-solid fa-check"></i> Low processing fees</li>
+              <li><i class="fa-solid fa-check"></i> Free property advisory</li>
+            </ul>
+            <a href="#" class="btn btn-dark">Apply Now</a>
+          </div>
+        </div>
+        <div class="loan-card reveal reveal-d2">
+          <div class="loan-head"><div class="ic"><i class="fa-solid fa-briefcase"></i></div><h3>Business Loan</h3><div class="rate">From 9.2% p.a.</div></div>
+          <div class="loan-body">
+            <ul>
+              <li><i class="fa-solid fa-check"></i> Up to $500K credit</li>
+              <li><i class="fa-solid fa-check"></i> Tenure up to 7 years</li>
+              <li><i class="fa-solid fa-check"></i> Working capital loans</li>
+              <li><i class="fa-solid fa-check"></i> Dedicated relationship mgr</li>
+            </ul>
+            <a href="#" class="btn btn-dark">Apply Now</a>
+          </div>
+        </div>
+        <div class="loan-card reveal reveal-d3">
+          <div class="loan-head"><div class="ic"><i class="fa-solid fa-car"></i></div><h3>Vehicle Loan</h3><div class="rate">From 7.8% p.a.</div></div>
+          <div class="loan-body">
+            <ul>
+              <li><i class="fa-solid fa-check"></i> Up to 100% on-road price</li>
+              <li><i class="fa-solid fa-check"></i> Tenure up to 7 years</li>
+              <li><i class="fa-solid fa-check"></i> New & pre-owned cars</li>
+              <li><i class="fa-solid fa-check"></i> Quick disbursal</li>
+            </ul>
+            <a href="#" class="btn btn-dark">Apply Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- EMI Calculator -->
+      <div class="calc reveal" style="margin-top:60px;">
+        <div class="calc-grid">
+          <div>
+            <h3 style="margin-bottom:6px;">EMI / Loan Calculator</h3>
+            <p style="margin-bottom:24px;">Estimate your monthly payment in seconds.</p>
+            <div class="calc-field">
+              <label>Loan Amount <b id="lbl-amount">$25,000</b></label>
+              <input type="range" id="calc-amount" min="1000" max="500000" step="1000" value="25000" />
+            </div>
+            <div class="calc-field">
+              <label>Interest Rate <b id="lbl-rate">8.5%</b></label>
+              <input type="range" id="calc-rate" min="3" max="20" step="0.1" value="8.5" />
+            </div>
+            <div class="calc-field">
+              <label>Tenure <b id="lbl-tenure">5 yrs</b></label>
+              <input type="range" id="calc-tenure" min="1" max="30" step="1" value="5" />
+            </div>
+          </div>
+          <div class="calc-result">
+            <div class="label">Monthly EMI</div>
+            <div class="emi" id="calc-emi">$0</div>
+            <div class="meta">
+              <div><span style="opacity:.7;">Total Interest</span><b id="calc-interest">$0</b></div>
+              <div><span style="opacity:.7;">Total Payable</span><b id="calc-total">$0</b></div>
+            </div>
+            <a href="#" class="btn btn-primary" style="margin-top:18px; width:100%;">Apply Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Credit Cards ====== -->
+  <section class="section cc-section" id="cards">
+    <div class="container">
+      <div class="cc-grid">
+        <div class="cc-visual reveal">
+          <div class="cc-card cc-2">
+            <div class="brand">NovaBank <span style="color:var(--navy-900);">GOLD</span></div>
+            <div class="chip" style="margin-top:48px;"></div>
+            <div class="num">5412 •••• •••• 8842</div>
+            <div class="meta"><span>VALID 12/29</span><span>VISA</span></div>
+          </div>
+          <div class="cc-card cc-1">
+            <div class="brand" style="color:var(--gold-400);">NovaBank PLATINUM</div>
+            <div class="chip" style="margin-top:48px;"></div>
+            <div class="num">4929 •••• •••• 1188</div>
+            <div class="meta"><span>VALID 09/30</span><span>VISA</span></div>
+          </div>
+        </div>
+        <div class="reveal reveal-d1">
+          <span class="eyebrow" style="color:var(--gold-500); font-size:.78rem; font-weight:700; letter-spacing:.18em; text-transform:uppercase;">Credit Cards</span>
+          <h2 style="margin:10px 0 18px;">Premium cards built for everyday rewards</h2>
+          <p style="margin-bottom:24px;">Choose from our family of credit cards with industry-leading cashback, travel benefits, and lifestyle privileges.</p>
+          <ul class="cc-benefits">
+            <li><i class="fa-solid fa-percent"></i><div><strong>Up to 5% cashback</strong>On groceries, dining, fuel and online shopping.</div></li>
+            <li><i class="fa-solid fa-plane"></i><div><strong>Airport lounge access</strong>Complimentary visits at 1,000+ lounges worldwide.</div></li>
+            <li><i class="fa-solid fa-shield"></i><div><strong>Fraud protection</strong>Zero liability guarantee with instant card freeze.</div></li>
+            <li><i class="fa-solid fa-gift"></i><div><strong>Reward points</strong>Earn 4x points on every transaction, redeem anywhere.</div></li>
+          </ul>
+          <a href="#" class="btn btn-primary" style="margin-top:24px;"><i class="fa-solid fa-credit-card"></i> Compare Cards</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Why choose us ====== -->
+  <section class="section why">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Why NovaBank</span>
+        <h2>A bank built on trust, technology and you</h2>
+        <p>We combine 35+ years of financial expertise with cutting-edge technology to deliver banking the way it should be.</p>
+      </div>
+      <div class="grid grid-4">
+        <div class="why-card reveal"><div class="ic" style="width:56px;height:56px;border-radius:14px;display:grid;place-items:center;margin-bottom:18px;font-size:1.4rem;"><i class="fa-solid fa-bolt"></i></div><h3>Instant Transfers</h3><p>Move money in real time across 180+ countries with zero hidden fees.</p></div>
+        <div class="why-card reveal reveal-d1"><div class="ic" style="width:56px;height:56px;border-radius:14px;display:grid;place-items:center;margin-bottom:18px;font-size:1.4rem;"><i class="fa-solid fa-lock"></i></div><h3>Bank-grade Security</h3><p>End-to-end encryption, biometric auth and 24/7 fraud monitoring.</p></div>
+        <div class="why-card reveal reveal-d2"><div class="ic" style="width:56px;height:56px;border-radius:14px;display:grid;place-items:center;margin-bottom:18px;font-size:1.4rem;"><i class="fa-solid fa-headset"></i></div><h3>24/7 Support</h3><p>Real humans, ready to help — anytime, in any of 12 languages.</p></div>
+        <div class="why-card reveal reveal-d3"><div class="ic" style="width:56px;height:56px;border-radius:14px;display:grid;place-items:center;margin-bottom:18px;font-size:1.4rem;"><i class="fa-solid fa-handshake"></i></div><h3>Transparent Pricing</h3><p>No hidden fees. Just clear, fair pricing on every product.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Testimonials ====== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Testimonials</span>
+        <h2>Loved by millions of happy customers</h2>
+      </div>
+      <div class="t-slider reveal">
+        <div class="t-track">
+          <div class="t-slides">
+            <div class="t-slide">
+              <p class="quote">NovaBank made buying my first home effortless. The home loan team walked me through every step and saved me thousands in interest.</p>
+              <div class="author">Sarah Johnson</div>
+              <div class="role">Software Engineer · New York</div>
+              <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+            </div>
+            <div class="t-slide">
+              <p class="quote">The mobile app is the cleanest banking experience I've ever used. Everything just works — payments, investments, even my insurance.</p>
+              <div class="author">Marcus Chen</div>
+              <div class="role">Entrepreneur · San Francisco</div>
+              <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+            </div>
+            <div class="t-slide">
+              <p class="quote">Switching our business banking to NovaBank cut our payment processing time in half. Their relationship managers truly understand SMEs.</p>
+              <div class="author">Priya Patel</div>
+              <div class="role">CEO, Lumen Studio · London</div>
+              <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="t-arrows">
+          <button class="t-prev" aria-label="Previous"><i class="fa-solid fa-arrow-left"></i></button>
+          <button class="t-next" aria-label="Next"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="t-controls"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FAQ ====== -->
+  <section class="section" style="background:var(--navy-50);">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">FAQ</span>
+        <h2>Frequently asked questions</h2>
+      </div>
+      <div class="faq reveal">
+        <div class="faq-item open">
+          <button class="faq-q">How do I open an account online? <i class="fa-solid fa-plus"></i></button>
+          <div class="faq-a"><p>You can open an account in under 5 minutes. Click "Open Account", complete the digital KYC with your ID and a selfie, and you're done. Your card ships within 3 business days.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Is my money safe with NovaBank? <i class="fa-solid fa-plus"></i></button>
+          <div class="faq-a"><p>Absolutely. Deposits up to $250,000 are FDIC insured. We use 256-bit encryption, biometric authentication, and continuous fraud monitoring.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">What documents are needed for a loan? <i class="fa-solid fa-plus"></i></button>
+          <div class="faq-a"><p>Generally a valid ID, proof of income (3 months of pay stubs), and bank statements. Specific requirements may vary by loan type.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Are there any hidden fees? <i class="fa-solid fa-plus"></i></button>
+          <div class="faq-a"><p>No. We pride ourselves on transparent pricing. Every fee — if any — is clearly listed before you commit.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">How can I reach customer support? <i class="fa-solid fa-plus"></i></button>
+          <div class="faq-a"><p>Our support team is available 24/7 via in-app chat, email, or phone at +1 (800) 555-0199 in 12 languages.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Newsletter & App ====== -->
+  <section class="section-sm">
+    <div class="container">
+      <div class="utility-grid">
+        <div class="util-card reveal">
+          <div class="ic-lg"><i class="fa-solid fa-envelope-open-text"></i></div>
+          <h3>Get banking insights weekly</h3>
+          <p>Subscribe to our newsletter for tips on saving, investing and growing wealth.</p>
+          <form id="newsletter" class="newsletter-form">
+            <input type="email" placeholder="Enter your email" required />
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+          <div class="sec-row">
+            <span class="sec-badge"><i class="fa-solid fa-shield-halved"></i> Privacy first</span>
+            <span class="sec-badge"><i class="fa-solid fa-ban"></i> No spam, ever</span>
+          </div>
+        </div>
+        <div class="util-card dark reveal reveal-d1">
+          <div class="ic-lg"><i class="fa-solid fa-mobile-screen-button"></i></div>
+          <h3>Download the NovaBank app</h3>
+          <p>Bank from your pocket — payments, investments, loans and more in one beautiful app.</p>
+          <div class="app-badges">
+            <a href="#" class="app-badge"><i class="fa-brands fa-apple"></i><div><span class="small">Download on the</span><span class="big">App Store</span></div></a>
+            <a href="#" class="app-badge"><i class="fa-brands fa-google-play"></i><div><span class="small">Get it on</span><span class="big">Google Play</span></div></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== CTA ====== -->
+  <section class="section-sm" id="open">
+    <div class="container">
+      <div class="cta-section reveal">
+        <h2>Ready to start banking smarter?</h2>
+        <p>Open your NovaBank account in under 5 minutes — no paperwork, no branch visits.</p>
+        <div class="btns">
+          <a href="#" class="btn btn-primary"><i class="fa-solid fa-user-plus"></i> Open Account</a>
+          <a href="contact.html" class="btn btn-outline"><i class="fa-solid fa-headset"></i> Talk to an advisor</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Footer ====== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="foot-grid">
+        <div class="foot-brand">
+          <a href="index.html" class="logo" style="color:var(--white);"><span class="logo-mark">N</span> Nova<span class="gold">Bank</span></a>
+          <p>NovaBank is a global financial services company providing modern banking, lending and investment products to millions of customers in 180+ countries.</p>
+          <div class="socials">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+        <div>
+          <h5>Company</h5>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Investor Relations</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Products</h5>
+          <ul>
+            <li><a href="services.html">Savings & Checking</a></li>
+            <li><a href="#loans">Loans</a></li>
+            <li><a href="#cards">Credit Cards</a></li>
+            <li><a href="services.html">Investments</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Support</h5>
+          <ul>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Security</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <div>© <span data-year></span> NovaBank Financial Services. All rights reserved.</div>
+        <div><a href="#">Terms</a> · <a href="#">Privacy</a> · <a href="#">Cookies</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="totop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
