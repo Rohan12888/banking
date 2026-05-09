@@ -57,7 +57,7 @@
         <a href="contact.html">Contact</a>
       </nav>
       <div class="nav-cta">
-        <a href="#" class="btn btn-ghost">Sign In</a>
+        <button id="signin-btn" class="btn btn-ghost">Sign In</button>
         <a href="#open" class="btn btn-primary">Open Account</a>
       </div>
       <button class="menu-toggle" aria-label="Menu"><i class="fa-solid fa-bars"></i></button>
@@ -464,6 +464,38 @@
   </footer>
 
   <button class="totop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <!-- ====== Sign In Modal ====== -->
+  <div class="modal-overlay" id="signin-modal">
+    <div class="modal-content reveal">
+      <button class="modal-close" id="modal-close"><i class="fa-solid fa-xmark"></i></button>
+      <div class="modal-head">
+        <div class="logo" style="margin-bottom:12px;">
+          <span class="logo-mark">N</span> Nova<span class="gold">Bank</span>
+        </div>
+        <h2>Welcome Back</h2>
+        <p>Please enter your details to access your account.</p>
+      </div>
+      <form id="signin-form" class="modal-form">
+        <div class="form-field">
+          <label for="signin-name">Full Name</label>
+          <input type="text" id="signin-name" placeholder="John Doe" required />
+        </div>
+        <div class="form-field">
+          <label for="signin-email">Email Address</label>
+          <input type="email" id="signin-email" placeholder="john@example.com" required />
+        </div>
+        <div class="form-field">
+          <label for="signin-phone">Phone Number (Optional)</label>
+          <input type="tel" id="signin-phone" placeholder="+1 (555) 000-0000" />
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%; margin-top:10px;">Continue <i class="fa-solid fa-arrow-right"></i></button>
+      </form>
+      <div class="modal-foot">
+        <p>Don't have an account? <a href="#open" id="modal-open-account" class="gold">Open one today</a></p>
+      </div>
+    </div>
+  </div>
 
   <script src="js/script.js"></script>
 </body>

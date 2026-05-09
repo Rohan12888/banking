@@ -156,3 +156,36 @@ if (nForm) {
 
 // ---- Year ----
 document.querySelectorAll('[data-year]').forEach(el => el.textContent = new Date().getFullYear());
+
+// ---- Sign In Modal ----
+const signinBtn = document.getElementById('signin-btn');
+const signinModal = document.getElementById('signin-modal');
+const modalClose = document.getElementById('modal-close');
+const signinForm = document.getElementById('signin-form');
+
+if (signinBtn && signinModal) {
+  signinBtn.addEventListener('click', () => signinModal.classList.add('open'));
+  modalClose.addEventListener('click', () => signinModal.classList.remove('open'));
+  signinModal.addEventListener('click', (e) => { if (e.target === signinModal) signinModal.classList.remove('open'); });
+}
+
+if (signinForm) {
+  signinForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const btn = signinForm.querySelector('button[type=submit]');
+    const orig = btn.innerHTML;
+    btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Processing...';
+    btn.disabled = true;
+
+    // Simulate API call
+    setTimeout(() => {
+      btn.innerHTML = '<i class="fa-solid fa-check"></i> Success!';
+      setTimeout(() => {
+        signinModal.classList.remove('open');
+        btn.innerHTML = orig;
+        btn.disabled = false;
+        signinForm.reset();
+      }, 1500);
+    }, 2000);
+  });
+}
